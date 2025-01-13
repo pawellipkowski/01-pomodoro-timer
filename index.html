@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAULT-TEC PRODUCTIVITY TIMER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pip-boy-frame">
+            <div class="pip-boy-decorations">
+                <div class="knobs left">
+                    <div class="knob"></div>
+                    <div class="knob"></div>
+                    <div class="knob"></div>
+                </div>
+                <div class="screen-overlay">
+                    <div class="scan-lines"></div>
+                    <h1>VAULT-TEC PRODUCTIVITY TIMER</h1>
+                    <div class="timer-display">
+                        <span id="minutes">25</span>:<span id="seconds">00</span>
+                    </div>
+                    <div class="controls">
+                        <button id="startBtn" class="pip-boy-btn">START</button>
+                        <button id="resetBtn" class="pip-boy-btn">RESET</button>
+                    </div>
+                    <div class="mode-select">
+                        <button id="workMode" class="pip-boy-btn active">WORK (25:00)</button>
+                        <button id="breakMode" class="pip-boy-btn">BREAK (05:00)</button>
+                    </div>
+                    <div class="status" id="statusText">STATUS: AWAITING ORDERS</div>
+                </div>
+                <div class="knobs right">
+                    <div class="knob"></div>
+                    <div class="knob"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
